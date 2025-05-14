@@ -1,25 +1,33 @@
-# MegaPay - Earn Money Online in Nigeria
 
-Welcome to **MegaPay**, your trusted platform for earning money online. With MegaPay, you can earn up to **₦25,000+ daily** by completing simple tasks, referring friends, and more. Join thousands of users who are already making money with ease!
 
-## Features
-- **Earn Daily**: Complete tasks like watching videos, playing games, and taking surveys.
-- **Referral Program**: Earn ₦1,500 for every friend you refer.
-- **Instant Payments**: Get paid via MegaPay, OPay, PalmPay, or Bank Transfer.
-- **Sign-Up Bonus**: Receive ₦12,000 as a welcome bonus when you register.
-- **Mobile-Friendly**: Work from anywhere, anytime.
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
+-->
 
-## Live Demo
-Visit the live site: [MegaPay](https://megapay.site)
+## Step 2: Configure your site
 
-## How to Use
-1. **Sign Up**: Create a free account and get your ₦12,000 welcome bonus.
-2. **Complete Tasks**: Choose from a variety of tasks to start earning.
-3. **Refer Friends**: Share your referral link and earn ₦1,500 per referral.
-4. **Get Paid**: Redeem your earnings instantly.
+_You turned on GitHub Pages! :tada:_
 
-## Installation
-If you'd like to run this project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/megapay.git
+We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
+
+Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+
+We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
+
+### :keyboard: Activity: Configure your site
+
+1. Browse to the `_config.yml` file in the `my-pages` branch.
+1. In the upper right corner, open the file editor.
+1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
+   ```yml
+   theme: minima
+   ```
+1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
+1. Commit your changes.
+1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
+1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+
